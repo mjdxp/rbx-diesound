@@ -1,0 +1,4 @@
+cd "/home/mjd/.local/share/grapejuice/prefixes/player/drive_c/Program Files (x86)/Roblox/Versions"
+find . -mindepth 1 -maxdepth 1 -not -empty -type d
+RBXVER=$(find . -mindepth 1 -maxdepth 1 -not -empty -type d)
+cp /home/mjd/Music/ouch.ogg ${RBXVER}/content/sounds
